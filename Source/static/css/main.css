@@ -412,6 +412,7 @@ h3.mini {
   color: white;
 }
 .top-button,
+
 .menu-button {
   display: block;
   width: 23px;
@@ -459,6 +460,11 @@ h3.mini {
   -ms-border-radius: 20px;
   -khtml-border-radius: 20px;
 }
+
+.menu-item {
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
 .top-button:hover,
 .menu-button:hover {
   background: white;
@@ -792,7 +798,7 @@ ul.general li {
 #home-page {
   /*background: url(../images/bg.png) #000 no-repeat;*/
 
-  background: url(http://lorempixel.com/1024/576/) #000000 no-repeat;
+  /*background: url(http://lorempixel.com/1024/576/) #000000 no-repeat;*/
   background-size: auto 100%;
   color: #fff;
 }
@@ -1209,4 +1215,14 @@ ul.general li {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
   /* Style adjustments for viewports that meet the condition */
+}
+
+#map-canvas {
+	width:100%;
+    height:calc(100% - 0);
+    position:absolute;
+    right:0;
+    top:50px;
+    bottom:0;
+    overflow:hidden;
 }
