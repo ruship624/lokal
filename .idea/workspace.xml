@@ -2,8 +2,254 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3369bec-cfc4-4883-865e-166444de2364" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\Mobile Detect.zip" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\ReadMe.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/water-html/water-html/index.html" afterPath="$PROJECT_DIR$/Source/water-html/water-html/index.html" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._images" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\._tools" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\css\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\css\._main-less.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\css\._normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._black-overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._startup" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._tile.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\._touch" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\blog\._image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\blog\._image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\blog\._image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\gallery\._image9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-blog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-careers.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-contact.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-gallery.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-portfolio.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-products.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-typography.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\home-icons\._icon-videos.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\icons\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\icons\._icon-close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\icons\._icon-mac.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\icons\._icon-map.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\icons\._icon-salesman.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\jquerymobile\._ajax-loader-old.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\jquerymobile\._ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\jquerymobile\._ajax-loader.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\jquerymobile\._icons-18-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\jquerymobile\._icons-18-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\jquerymobile\._icons-36-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\jquerymobile\._icons-36-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\photoswipe\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\photoswipe\jquerymobile\._ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\photoswipe\jquerymobile\._ajax-loader.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\photoswipe\jquerymobile\._icons-18-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\photoswipe\jquerymobile\._icons-18-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\photoswipe\jquerymobile\._icons-36-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\photoswipe\jquerymobile\._icons-36-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\sample\._image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\sample\._image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\social\._icon-facebook-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\social\._icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\social\._icon-linkedin-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\social\._icon-linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\social\._icon-twitter-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\social\._icon-twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\startup\._startup-retina-4in.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\startup\._startup-retina.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\startup\._startup-tablet-landscape-retina.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\startup\._startup-tablet-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\startup\._startup-tablet-portrait-retina.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\startup\._startup-tablet-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\startup\._startup.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\touch\._apple-touch-icon-114x114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\touch\._apple-touch-icon-144x144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\touch\._apple-touch-icon-57x57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\touch\._apple-touch-icon-72x72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\touch\._apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\images\touch\._apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\._helper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\._jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\._jquery.mobile-1.2.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\._less-1.3.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\._plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\._vendor" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\vendor\._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\js\vendor\._modernizr-2.6.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\._mobile-bookmark-bubble" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\._COPYING" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\._bookmark_bubble.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\._example" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\._images" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\example\._example.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\example\._example.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\images\._arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\images\._close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\images\._generate_base64_images" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\__MACOSX\water-html\tools\mobile-bookmark-bubble\images\._icon_calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\about.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\blog-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\blog.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\contact.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\css\flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\css\jquery.mobile-1.2.0.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\css\jquery.mobile.structure-1.2.0.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\css\main-less.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\css\photoswipe\photoswipe.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\gallery-detail.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\black-overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\blog\image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\blog\image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\blog\image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\gallery\image9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-blog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-careers.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-contact.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-gallery.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-portfolio.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-products.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-typography.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\home-icons\icon-videos.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\icons\icon-close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\icons\icon-mac.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\icons\icon-map.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\icons\icon-salesman.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\jquerymobile\ajax-loader-old.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\jquerymobile\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\jquerymobile\ajax-loader.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\jquerymobile\icons-18-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\jquerymobile\icons-18-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\jquerymobile\icons-36-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\jquerymobile\icons-36-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\error.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\icons.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\icons@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\jquerymobile\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\jquerymobile\ajax-loader.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\jquerymobile\icons-18-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\jquerymobile\icons-18-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\jquerymobile\icons-36-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\jquerymobile\icons-36-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\photoswipe\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\sample\image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\sample\image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\social\icon-facebook-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\social\icon-facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\social\icon-linkedin-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\social\icon-linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\social\icon-twitter-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\social\icon-twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\startup\startup-retina-4in.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\startup\startup-retina.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\startup\startup-tablet-landscape-retina.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\startup\startup-tablet-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\startup\startup-tablet-portrait-retina.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\startup\startup-tablet-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\startup\startup.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\tile.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\touch\apple-touch-icon-114x114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\touch\apple-touch-icon-144x144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\touch\apple-touch-icon-57x57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\touch\apple-touch-icon-72x72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\touch\apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\images\touch\apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\info.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\join-us.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\forms.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\helper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\jquery.easyListSplitter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\jquery.mobile-1.2.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\less-1.3.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\photoswipe\code.photoswipe.jquery-3.0.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\photoswipe\klass.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\vendor\modernizr-2.6.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\js\vendor\zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\portfolio.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\send-comment.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\send-email.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\services.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\COPYING" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\bookmark_bubble.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\example\example.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\example\example.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\images\arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\images\close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\images\generate_base64_images" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\tools\mobile-bookmark-bubble\images\icon_calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\typography.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-html\water-html\videos.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Angello\lokal\Source\water-php.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/water-html/index.html" afterPath="$PROJECT_DIR$/Source/water-html/index.html" />
     </list>
     <ignored path="lokal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,22 +273,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source/water-html/water-html/robots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Source/water-html/water-html/index.html">
+        <entry file="file://$PROJECT_DIR$/Source/water-html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16314779" vertical-offset="0" max-vertical-offset="3315">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="14" />
-              <folding />
+            <state vertical-scroll-proportion="2.2725527" vertical-offset="176" max-vertical-offset="2142">
+              <caret line="149" column="46" selection-start-line="149" selection-start-column="46" selection-end-line="149" selection-end-column="46" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,6 +294,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/water-html/water-html/index.html" />
+        <option value="$PROJECT_DIR$/Source/water-html/index.html" />
       </list>
     </option>
   </component>
@@ -133,24 +372,6 @@
               <option name="myItemId" value="Source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lokal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water-html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="water-html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -171,6 +392,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="water-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lokal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lokal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -195,10 +434,6 @@
               <option name="myItemId" value="Source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water-html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -207,6 +442,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="Water &#9;null&#9;null" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -270,19 +511,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Source/water-html/water-html/robots.txt">
+    <entry file="file://$PROJECT_DIR$/Source/water-html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/water-html/water-html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16314779" vertical-offset="0" max-vertical-offset="3315">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="14" />
-          <folding />
+        <state vertical-scroll-proportion="2.2725527" vertical-offset="176" max-vertical-offset="2142">
+          <caret line="149" column="46" selection-start-line="149" selection-start-column="46" selection-end-line="149" selection-end-column="46" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
