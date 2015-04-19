@@ -190,6 +190,3 @@ function setClear() {
   locationArray = [];
   contentStringArray = [];
 }
-
-var images = ['1.png', '2.png', '3.png', '4.png', '5.png'];
-$('body').css({'background-image': 'url(images/local-img/' + images[Math.floor(Math.random() *images.length)] + ')'});

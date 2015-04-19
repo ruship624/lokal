@@ -2,139 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3369bec-cfc4-4883-865e-166444de2364" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Source/stream.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/blog-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/css/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/css/jquery.mobile-1.2.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/css/jquery.mobile.structure-1.2.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/css/main-less.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/css/photoswipe/photoswipe.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/gallery-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/bg_direction_nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/black-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/blog/image1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/blog/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/blog/image3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/gallery/image9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-blog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-careers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-contact.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-gallery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-portfolio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-products.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-typography.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/home-icons/icon-videos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/icons/icon-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/icons/icon-mac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/icons/icon-map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/icons/icon-salesman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/jquerymobile/ajax-loader-old.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/jquerymobile/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/jquerymobile/ajax-loader.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/jquerymobile/icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/jquerymobile/icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/jquerymobile/icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/jquerymobile/icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/error.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/icons@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/jquerymobile/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/jquerymobile/ajax-loader.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/jquerymobile/icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/jquerymobile/icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/jquerymobile/icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/jquerymobile/icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/photoswipe/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/sample/image1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/sample/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/social/icon-facebook-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/social/icon-facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/social/icon-linkedin-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/social/icon-linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/social/icon-twitter-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/social/icon-twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/startup/startup-retina-4in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/startup/startup-retina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/startup/startup-tablet-landscape-retina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/startup/startup-tablet-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/startup/startup-tablet-portrait-retina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/startup/startup-tablet-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/startup/startup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/touch/apple-touch-icon-114x114-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/touch/apple-touch-icon-144x144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/touch/apple-touch-icon-57x57-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/touch/apple-touch-icon-72x72-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/touch/apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/images/touch/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/join-us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/forms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/jquery.easyListSplitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/jquery.mobile-1.2.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/less-1.3.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/photoswipe/code.photoswipe.jquery-3.0.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/photoswipe/klass.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/js/vendor/zepto.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/portfolio.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/send-comment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/send-email.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/COPYING" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/bookmark_bubble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/example/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/example/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/images/generate_base64_images" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/tools/mobile-bookmark-bubble/images/icon_calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/water-html/videos.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lokal.iml" afterPath="$PROJECT_DIR$/.idea/lokal.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Source/static/images/local-img/3.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/images/blog/image1.jpg" afterPath="$PROJECT_DIR$/Source/static/images/blog/image1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/images/sample/image1.jpg" afterPath="$PROJECT_DIR$/Source/static/images/sample/image1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/images/blog/image2.jpg" afterPath="$PROJECT_DIR$/Source/static/images/blog/image2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/images/sample/image2.jpg" afterPath="$PROJECT_DIR$/Source/static/images/sample/image2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/images/blog/image3.jpg" afterPath="$PROJECT_DIR$/Source/static/images/blog/image3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/about.html" afterPath="$PROJECT_DIR$/Source/static/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/blog-detail.html" afterPath="$PROJECT_DIR$/Source/static/blog-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/blog.html" afterPath="$PROJECT_DIR$/Source/static/blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/index.html" afterPath="$PROJECT_DIR$/Source/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/static/js/scripts.js" afterPath="$PROJECT_DIR$/Source/static/js/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lokal.iws" />
@@ -162,8 +40,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.870968" vertical-offset="14174" max-vertical-offset="22194">
-              <caret line="801" column="2" selection-start-line="801" selection-start-column="2" selection-end-line="801" selection-end-column="29" />
+            <state vertical-scroll-proportion="-3.8064516" vertical-offset="18800" max-vertical-offset="22194">
+              <caret line="1051" column="2" selection-start-line="1051" selection-start-column="2" selection-end-line="1051" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -172,7 +50,7 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/static/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3214" max-vertical-offset="3600">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3178" max-vertical-offset="3564">
               <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding />
             </state>
@@ -182,9 +60,33 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5988858" vertical-offset="3241" max-vertical-offset="3672">
-              <caret line="192" column="12" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
+            <state vertical-scroll-proportion="-0.95543176" vertical-offset="2863" max-vertical-offset="3708">
+              <caret line="140" column="77" selection-start-line="140" selection-start-column="77" selection-end-line="140" selection-end-column="77" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="2412">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stream.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/stream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1098">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,6 +105,9 @@
         <option value="$PROJECT_DIR$/Source/stream.py" />
         <option value="$PROJECT_DIR$/Source/static/js/scripts.js" />
         <option value="$PROJECT_DIR$/Source/static/css/main.css" />
+        <option value="$PROJECT_DIR$/Source/static/about.html" />
+        <option value="$PROJECT_DIR$/Source/static/blog-detail.html" />
+        <option value="$PROJECT_DIR$/Source/static/blog.html" />
         <option value="$PROJECT_DIR$/Source/static/index.html" />
       </list>
     </option>
@@ -570,7 +475,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -580,7 +485,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -592,6 +497,27 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -610,7 +536,14 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Source/server.py</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -638,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/stream.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1098">
-          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7202073" vertical-offset="4798" max-vertical-offset="5184">
@@ -660,14 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="882">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -720,26 +635,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/static/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/Source/static/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3214" max-vertical-offset="3600">
-          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.6296296" vertical-offset="2539" max-vertical-offset="3060">
+          <caret line="151" column="59" selection-start-line="151" selection-start-column="59" selection-end-line="151" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/static/blog-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="46.666668" vertical-offset="1350" max-vertical-offset="3600">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/static/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33231708" vertical-offset="1475" max-vertical-offset="3366">
+          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1098">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.870968" vertical-offset="14174" max-vertical-offset="22194">
-          <caret line="801" column="2" selection-start-line="801" selection-start-column="2" selection-end-line="801" selection-end-column="29" />
+        <state vertical-scroll-proportion="-3.8064516" vertical-offset="18800" max-vertical-offset="22194">
+          <caret line="1051" column="2" selection-start-line="1051" selection-start-column="2" selection-end-line="1051" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="2412">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3178" max-vertical-offset="3564">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5988858" vertical-offset="3241" max-vertical-offset="3672">
-          <caret line="192" column="12" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
+        <state vertical-scroll-proportion="-0.95543176" vertical-offset="2863" max-vertical-offset="3708">
+          <caret line="140" column="77" selection-start-line="140" selection-start-column="77" selection-end-line="140" selection-end-column="77" />
           <folding />
         </state>
       </provider>
