@@ -12,11 +12,18 @@ from pymongo import MongoClient
 from flask import jsonify
 from bson.json_util import dumps
 from flask import render_template
+from behance_python.api import API
+import json
+import urllib
 
 app = Flask(__name__)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.DEBUG)
 client = MongoClient('mongodb://localhost:27017/').whatsPoppin
+
+# behance API key
+behance = API('UTeBYCTpcKP4ReuiVAg7iZhPmNUhAy5V')
+googleKey = 'AIzaSyAqiO_0STzsCzFIROBVBHbwxv6iPKKOvGs'
 
 @app.route('/')
 def index():
@@ -50,7 +57,72 @@ def getTweets():
 def analyzeText(data):
     print data['data']
 
+# display gallery images based on location
+# images from Behance
+@app.route('/gallery')
+def getGallery():
+    location = request.args.get("location")
 
+
+    url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + location + "&key=" + googleKey
+
+    response = urllib.urlopen(url)
+    data = json.loads(response.read())
+
+    city = data["results"][0]["address_components"][4]["long_name"]
+
+    print "City is " + city
+
+    galleries = []
+
+    projects = behance.project_search(city)
+
+    '''
+
+        "galleries": [
+            {
+                "name": "Gallery Name",
+                "covers": {
+                    "image_url",
+                    "image_url"
+                },
+                "images": [
+                    "owner_name": {
+                        "image_url",
+                        "image_url"
+                    }
+                ]
+            }
+        ]
+    '''
+
+    for project in projects:
+        gallery = {
+            "name": project.name,
+            "covers": project.covers.values(),
+            "images": []   # each image is an object containing the owner/author and the image URL
+        }
+
+        for owner in project.owners:
+            gallery["images"].append({
+                owner.first_name.replace(".", "") + " " + owner.last_name.replace(".", ""): owner.images.values()
+            })
+
+        galleries.append(gallery)
+
+        # print json.dumps(galleries)
+        # print "\n"
+
+    galleries_obj = {
+        "galleries": galleries
+    }
+
+    # load into MongoDB
+    client.location.insert_one(galleries_obj)
+
+    print client.location.find_one()
+
+    return json.dumps(galleries)
 
 port = os.getenv('VCAP_APP_PORT', '5000')
 if __name__ == "__main__":
