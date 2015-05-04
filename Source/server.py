@@ -15,11 +15,18 @@ from flask import render_template
 from behance_python.api import API
 import json
 import urllib
+from werkzeug.routing import FloatConverter as BaseFloatConverter
+from flask_negotiate import consumes, produces
+
+
 
 app = Flask(__name__)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.DEBUG)
-client = MongoClient('mongodb://localhost:27017/').whatsPoppin
+client = MongoClient('mongodb://localhost:27017/').lokal
+
+# before routes are registered
+
 
 # behance API key
 behance = API('UTeBYCTpcKP4ReuiVAg7iZhPmNUhAy5V')
@@ -27,26 +34,18 @@ googleKey = 'AIzaSyAqiO_0STzsCzFIROBVBHbwxv6iPKKOvGs'
 
 @app.route('/')
 def index():
-    render_template('/static/index.html')
-    #return '<a href="/call">Click for tweets</a>'
+    #render_template('/static/index.html')
+    return '<a href="/call">Click for tweets</a>'
 
-@app.route('/call')
-def fetchTweets():
-    p = subprocess.Popen("python ./stream.py", shell = True)
-    return "<p>Tweets being collected!"
-
-
-
-
-
-    
-    # time.sleep(40)
-    # subprocess.call(["kill", "-9", "%d" % p.pid])
-    # tweet_file = open('./out_file.txt', 'r')
-    # http_out = "angello is always right"
-    # for line in tweet_file:
-    #     http_out = http_out+ '<p> '+line+''
-    # return http_out
+@app.route('/call/<data>', methods=['GET', 'POST'])
+@consumes('application/json', 'text/html')
+def fetchTweets(data):
+    coords = data
+    print coords
+    print "yeah!"
+    p = subprocess.Popen("python ./stream.py "+str(data), shell = True)
+    return "{response: 'success'}"
+    #return '<a href="/static/index.html"> <p>Tweets being collected! </a>'
 
 @app.route('/getTweets')
 def getTweets():
@@ -61,8 +60,8 @@ def analyzeText(data):
 # images from Behance
 @app.route('/gallery')
 def getGallery():
-    location = request.args.get("location")
 
+    location = request.args.get("location")
 
     url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + location + "&key=" + googleKey
 
@@ -124,6 +123,6 @@ def getGallery():
 
     return json.dumps(galleries)
 
-port = os.getenv('VCAP_APP_PORT', '5000')
+port = os.getenv('VCAP_APP_PORT', '9000')
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=int(port))

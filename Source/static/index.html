@@ -34,7 +34,7 @@
         <!--
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
-        
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300' rel='stylesheet' type='text/css'>
         
@@ -52,14 +52,14 @@
         
         <script src="js/vendor/zepto.min.js"></script>
 
-        <script src="js/jquery-1.8.2.min.js"></script>
+        <!--<script src="js/jquery-1.8.2.min.js"></script>-->
         <script src="js/jquery.mobile-1.2.0.min.js"></script>
         <script src="js/helper.js"></script>
         <script src="js/jquery.flexslider-min.js"></script>
         <script src="js/photoswipe/klass.min.js"></script>
         <script src="js/photoswipe/code.photoswipe.jquery-3.0.5.min.js"></script>
         <script src="js/jquery.easyListSplitter.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
         
         <script src="js/forms.js"></script>
         <script src="js/main.js"></script>
@@ -143,9 +143,9 @@
                             </a>
                         </li>
                         <li>
-                            <a href="portfolio.html" class="menu-item">
-                                <img src="images/home-icons/icon-portfolio.png" alt="Portfolio">
-                                <span>Open Forum</span>
+                            <a href="http://localhost:5000" class="menu-item">
+                                <img src="images/home-icons/chatboxes.png" alt="Portfolio">
+                                <span>Lokal Talk</span>
                             </a>
                         </li>
                         
@@ -190,7 +190,7 @@
         <script>
             var images = ["1.jpg", "2.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"];
             $('#home-page').css({'background-image': 'url(images/local-img/' +images[Math.floor(Math.random()*images.length)] + ')',
-            'background-size': 'auto 100%',
+            'background-size': 'auto 150%',
             'overflow': 'hidden'
             });
         </script>

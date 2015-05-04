@@ -1,186 +1,105 @@
-    //var map;
-
-    function pollTweets() {
-      requestTweets();
-    };
-
-    tweetData = {};
-    map = {};
-    my_markers = [];
-    info_windows = [];
-    contentStringArray=[]
-    locationArray = []
-    to_delete_array = []
-    google.maps.event.addDomListener(window, 'load', initialize);
-    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-    //This is where I go crazy with stuff
+var map = {},
+myPos = {},
+mapOptions = {},
+tweetData = {},
+my_markers = [],
+info_windows = [],
+contentStringArray=[],
+locationArray = [],
+to_delete_array = [],
+screen_names_array = [];
+google.maps.event.addDomListener(window, 'load', initialize);
+map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
 
+//Get tweets from mongoDB
+function requestTweets() {
+  $.ajax({
+    type: 'GET',
+    url: '../getTweets',
+    //contentType: 'application/json; charset=utf-8',
+    success: function(data) {
+      console.log("Success requestTweets");
+      setMarkers(map, data);
+    },
+        // Overlay function stuff happens here
+    //error: playSound,
+    dataType: 'json'
+  });
+}
 
+//Start stream
+function startStream(upper, lower) {
 
-    function requestTweets() {
-      $.ajax({
-        type: 'GET',
-        url: '../getTweets',
-        //contentType: 'application/json; charset=utf-8',
-        success: function(data) {
-          console.log(data)
+  console.log(upper);
+  console.log(lower);
+  var locData = [upper.k,lower.j,upper.j,lower.k];
+  var dataString = locData[0].toString()+"/"+locData[1].toString()+"/"+locData[2].toString()+"/"+locData[3].toString();
+  dataString =  dataString.split('.').join('a');
+  dataString = dataString.split('-').join('b');
+  dataString = dataString.split('/').join('c');
+  console.log(dataString);
 
-          //document.getElementById("demo").innerHTML = data[0]['locationx']
-          tweetData = data;
-          console.log("Map gonna be used")
-          setMarkers(map, tweetData);
-          
-        }, 
-            // Overlay function stuff happens here
-        //error: playSound,
-        dataType: 'json'
-      });
+  $.ajax({
+    type: 'POST',
+    // Provide correct Content-Type, so that Flask will know how to process it.
+    contentType: 'application/json',
+    // Encode your data as JSON.
+    //data: dataString,
+    // This is the type of data you're expecting back from the server.
+    dataType: 'text/html',
+    url: '../call/'+dataString,
+    success: function (e) {
+        console.log(e);
     }
-    
-
-    function initialize() {
-      //var pos1 = new google.maps.LatLng(40.7427,-74.0059);
-      //var pos2 = new google.maps.LatLng(40.7127,-74.0259);
-
-      var goldStar = {
-        path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
-        fillColor: "yellow",
-        fillOpacity: 0.8,
-        scale: 0.1,
-        strokeColor: "red",
-        strokeWeight: 14
-      };
-
-      var mapOptions = {
-        zoom: 14,
-        center: {lat:40.52521, lng:-74.44122},
-      }
-
-      map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-      console.log("Map set")
-      //pollTweets();
-      setInterval(pollTweets, 10000);
-
-      //var marker = new google.maps.Marker({
-          //position: pos1,
-          //icon: {
-            //path: google.maps.SymbolPath.CIRCLE,
-            //scale: 10,
-          //},
-          //map: map,
-          //title: 'Hello World!'
-      //});
-      var marker2 = new google.maps.Marker({
-          position: {lat:40.52521, lng:-74.44122},
-          icon: goldStar,
-          map: map,
-          title: 'Hello World!'
-      });
-
-
-      var contentString = '<div id="content">'+
-      '<div id="siteNotice">'+
-      '</div>'+
-      '<h4 id="firstHeading" class="firstHeading">Jennifer Breuer ‏@JenBreuer  3 mins ago</h4>'+
-      'Checkout the Macintosh Original Icons at MoMa: http://www.fastcodesign.com/3043312/moma-recognizes-susan-kare-the-designer-      of-the-macintoshs-original-icons?partner=rss'+
-      '</div>'+
-      '</div>';
-
-      var infowindow2 = new google.maps.InfoWindow2({
-      content: contentString
-      });
-      google.maps.event.addListener(marker, 'click', function() {
-      infowindow2.open(map,marker);
-      });
-    }
-
-    function setMarkers(map, locations) {
-      console.log(locations)
-      for (var i = 0; i < locations.length; i++) {
-
-          console.log("Inside setMarkers")
-          console.log(locations[i])
-          var keyword = locations[i];
-          var myLatLng = new google.maps.LatLng(keyword['locationy'], keyword['locationx']);
-          locationArray.push(myLatLng);
-          contentStringArray.push(keyword['text'])
-          var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              animation: google.maps.Animation.BOUNCE,
-              icon: {
-                  path: google.maps.SymbolPath.CIRCLE,
-                  scale: 10,
-                },
-              title: keyword['time'],
-              
-          }
-          );
+    });
+}
 
 
 
-          marker.info = new google.maps.InfoWindow({
+function setMarkers(map, locations) {
+    console.log("Doing setMarkers");
+    var tweetIcon ={
+        url: 'images/icons/social-twitter.png',
+        size: new google.maps.Size(30, 30),
+        origin: new google.maps.Point(0,0),
+        anchor: new google.maps.Point(15, 15)
+        };
+
+    for (var i = 0; i < locations.length; i++) {
+
+        console.log(locations[i]);
+        var keyword = locations[i];
+        var myLatLng = new google.maps.LatLng(keyword['locationy'], keyword['locationx']);
+        locationArray.push(myLatLng);
+        contentStringArray.push('<a href="http://twitter.com/'+keyword['user']+'" target="_blank">'+'<b>'+keyword['user']+'</b></a>'+'<br>'+keyword['text']);
+        //screen_names_array.push(keyword['user']);
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            animation: google.maps.Animation.BOUNCE,
+            icon: tweetIcon,
+            title: keyword['time'],
+        });
+        console.log("made the marker");
+        marker.info = new google.maps.InfoWindow({
             content: contentStringArray[i],
             position: locationArray[i],
           });
-          
-          my_markers.push(marker);
 
-          //setTimeout(function(){console.log(my_markers)}, 3000)
-          
+        my_markers.push(marker);
 
-          google.maps.event.addListener(my_markers[i], 'click', function() {
-          this.info.open(map,my_markers[i]);
-          });
-
-          setTimeout(function(){
-          //requestTweets();
-          setClear();
-          }, 9900);
-
-      }
-
-
+        google.maps.event.addListener(my_markers[i], 'click', function() {
+        this.info.open(map,my_markers[i]);
+        });
     }
 
-    function buttonFunct(){
+        setTimeout(function(){
+        //requestTweets();
+            setClear();
+        }, 9850);
 
-      var query = document.getElementById("thatsearchbar");
-      var queryVal = query.value;
-      console.log(queryVal);
-      for(i=0;i< my_markers.length;i++){
-        //query = document.getElementsByName("thatsearchbar")[0].value;
-        //console.log(contentStringArray[i])
-        var content = contentStringArray[i].toLowerCase();
-        if(content.indexOf(queryVal.toLowerCase())==-1){
-          //my_markers[i].icon.path =  google.maps.SymbolPath.BACKWARD_OPEN_ARROW
-          //my_markers[i].info
-          my_markers[i].setMap(null);
-          console.log("deleted one");
-
-        }
-        else{
-            my_markers[i].setMap(map);
-            console.log("set one");
-        }
-      }
     }
-
-
-
-function arr_diff(a1, a2){
-  var a=[], diff=[];
-  for(var i=0;i<a1.length;i++)
-    a[a1[i]]=true;
-  for(var i=0;i<a2.length;i++)
-    if(a[a2[i]]) delete a[a2[i]];
-    else a[a2[i]]=true;
-  for(var k in a)
-    diff.push(k);
-  return diff;
-}
 
 function setClear() {
   for (var i = 0; i < my_markers.length; i++) {
@@ -189,4 +108,63 @@ function setClear() {
   my_markers = [];
   locationArray = [];
   contentStringArray = [];
+}
+
+
+function initialize() {
+  var mapOptions = {
+    zoom: 11
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  // Try HTML5 geolocation
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = new google.maps.LatLng(position.coords.latitude,
+                                       position.coords.longitude);
+
+      var maininfowindow = new google.maps.InfoWindow({
+        map: map,
+        position: pos,
+        content: "You're here!"
+      });
+
+      map.setCenter(pos);
+      console.log('Bounds:');
+      var bounds = map.getBounds()
+      var upper = bounds.Da;
+      var lower = bounds.va;
+      console.log(upper);
+      console.log(lower);
+      startStream(upper,lower);
+
+    }, function() {
+      handleNoGeolocation(true);
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleNoGeolocation(false);
+  }
+
+  setInterval(requestTweets, 10000);
+
+}//end of initialize
+
+
+function handleNoGeolocation(errorFlag) {
+  if (errorFlag) {
+    var content = 'Error: The Geolocation service failed.';
+  } else {
+    var content = 'Error: Your browser doesn\'t support geolocation.';
+  }
+
+  var options = {
+    map: map,
+    position: new google.maps.LatLng(60, 105),
+    content: content
+  };
+
+  var maininfowindow = new google.maps.InfoWindow(options);
+  map.setCenter(options.position);
 }

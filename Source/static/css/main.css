@@ -352,6 +352,13 @@ h3.mini {
 .margpage.margbottom {
   margin-bottom: 9%;
 }
+
+.map-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+
 .padpage {
   padding-left: 9%;
   padding-right: 9%;
